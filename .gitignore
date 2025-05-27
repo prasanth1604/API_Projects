@@ -1,5 +1,10 @@
-/.venv
+/.venv/
 **/migrations/
 !**/migrations/__init__.py
 db.sqlite3
 *.pyc
+*.log
+*.tmp
+*.bak
+*.env
+__pycache__/

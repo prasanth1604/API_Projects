@@ -61,10 +61,5 @@ npm start
 npm run build
 ```
 
-- I have used proxy `http://127.0.0.1` for axios in package.json
-- You can set axios.defaults.baseURL = `https://api.example.com` Globally
-
-
-
-Don't Forget to whitelist your host origin using `django-cors-header` when using in production<br>
-[See Documentation](https://pypi.org/project/django-cors-headers/)
+- You can view the application with frontend at
+```localhost:5173```

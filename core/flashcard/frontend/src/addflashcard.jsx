@@ -13,6 +13,9 @@ const AddFlashcard = () => {
     try {
       const res = await api.post('/flashcard', { student_id: studentId, question, answer });
       setResponse(res.data);
+      setQuestion('');
+      setAnswer('');
+      setStudentId('');
     } catch (err) {
       alert("Error adding flashcard");
     }

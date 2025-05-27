@@ -4,6 +4,7 @@ from rest_framework import status
 from .models import Flashcard
 from .serializers import FlashcardSerializer
 from .subject_classifier import infer_subject
+import random
 
 class AddFlashcardView(APIView):
     def post(self, request):
@@ -37,6 +38,6 @@ class GetFlashcardsView(APIView):
                         break
                 else:
                     del subject_groups[subject]
-
+                    
         serializer = FlashcardSerializer(result, many=True)
         return Response(serializer.data)

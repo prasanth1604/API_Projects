@@ -42,6 +42,10 @@ Server will be available at `http://127.0.0.1:8000` in your browser
 '/get-subject' to view flashcards saved
 
 ## Frontend( React )
+Locate the frontend folder
+```
+cd falshcard/frontend
+```
 
 #### To install dependency
 

@@ -46,6 +46,10 @@ Server will be available at `http://127.0.0.1:8000` in your browser
 #### To install dependency
 
 ```
+npm install react react-router-dom axios cors
+```
+
+```
 npm install
 ```
 
